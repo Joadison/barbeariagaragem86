@@ -50,6 +50,11 @@ body{
 .painel .fotos img{
     width: 50%;
 }
+.hr3 {
+  border: 10px;
+  height: 5px;
+  background-image: linear-gradient(to right, transparent, white, transparent);  
+}
 footer{
     text-align: center; 
     padding: 50px;
