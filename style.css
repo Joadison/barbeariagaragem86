@@ -1,0 +1,56 @@
+*{
+	box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+	background-color:#1B1D2D;
+}
+.painel{
+	width: 100%;  /*Pode chegar a 100% numa tela pequena*/
+    max-width: 500px;  /*O máximo que pode chegar numa tela grande é 300px*/
+    margin: auto;  /*margens automáticas para centralizar a section*/
+    padding: 20px;  /*A section como um todo terá um padding interno*/ 
+    background-color:#ffffff10;  /*Designamos uma cor de fundo para toda a section*/
+	/*backdrop-filter:blur(12px);
+	-webkit-backdrop-filter:blur(12px);*/
+    border-radius: 15px ;  /*Demos uma borda arredondada em 15px para a section*/
+	text-align: center;
+	
+}
+.painel .logo img{
+	width: 30%;
+    border-radius: 50%;
+}
+
+.painel h1{
+    text-align: center;  /*Apesar de só termos uma imagem, como ela é um texto no arquivo html, essa propriedade dá certo*/
+	color:white;
+	font:  30px arial;
+
+}
+.painel h5{
+    text-align: center;  /*Apesar de só termos uma imagem, como ela é um texto no arquivo html, essa propriedade dá certo*/
+	color:white;
+	font:  20px Brush Script MT;
+}
+.painel input{
+	background-color:white;
+	border-color:white;
+	border-radius: 15px;
+	width: 100%; 
+	padding: 15px;
+	font:  15px Harlow Solid Italic;
+
+}
+.painel input:hover{
+	background-color:#1B1D2D;
+	color:white;
+	border-color:black;
+}
+.painel .fotos img{
+    width: 50%;
+}
+footer{
+    text-align: center; 
+    padding: 50px;
+}
